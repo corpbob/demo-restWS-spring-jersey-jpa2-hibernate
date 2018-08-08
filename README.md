@@ -1,5 +1,26 @@
 demo-restWS-spring-jersey-jpa2-hibernate
 ========================================
+
+This demo was forked from this repository: [https://github.com/amacoder/demo-restWS-spring-jersey-jpa2-hibernate](https://github.com/amacoder/demo-restWS-spring-jersey-jpa2-hibernate)
+
+# How to run using in OpenShift
+
+## Create a project 
+```
+oc new-project s2idemo
+```
+
+## Using the web console, access your new project and click "Add to Project". Select Mysql (Ephemeral). Use the following parameters:
+- Database Service Name = rest_demo
+- MySQL Connection Username = rest_demo
+- MySQL Connection Password = rest_demo
+- MySQL root user Password = rest_demo
+
+## Using the web console, click on Add to Project. Select Wildfly. Use the following parameters:
+- Application Name = restdemo
+- Git Repository = https://github.com/corpbob/demo-restWS-spring-jersey-jpa2-hibernate.git
+
+
 Prerequisites:
 --
 - MySQL 5.5 or 5.6 
