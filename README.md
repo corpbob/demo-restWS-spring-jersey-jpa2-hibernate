@@ -3,7 +3,7 @@ demo-restWS-spring-jersey-jpa2-hibernate
 
 This demo was forked from this repository: [https://github.com/amacoder/demo-restWS-spring-jersey-jpa2-hibernate](https://github.com/amacoder/demo-restWS-spring-jersey-jpa2-hibernate)
 
-# How to run using in OpenShift
+# How to run in OpenShift
 
 ## Create a project 
 ```
